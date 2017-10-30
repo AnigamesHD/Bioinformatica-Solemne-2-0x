@@ -10,8 +10,13 @@ Parte1
 
 Parte 2
 
-2) Primer lugar al buscar los isoprenil en en las bases de datos no se logra buscar en google luego buscamos en bases datos tales pfam el cual nos dio como resultado polyprenyl synt, al momento de buscar una familia de proteinas entonces debo buscar pfma entonces para estar más seguro busco, entonces asimilamos que la palabra iso puede ser isoform,
-buscamos en scop nos dio isoprenyl diphosphate synthases, por lo cual trabajamos con poliprenil sintetasa,   de ncbi  obtenimos 5 articulos de proteinas los cuales luego buscamos en ncbi 
+
+Según lo visto en el laboratorio, en este caso requerirá caracterizar evolutivamente proteinas de la familia de isoprenyl synthetase (5 proteínas) determinando si ¿existe una relación convergente o divergente entre ellas? ¿porque?, para lo cual deberá utilizar las distintas herramientas como las bases de datos uniprot, prosite, pfam, entre otras.La evaluación de esta pregunta se asignará según la cantidad de herramientas utilizadas, determinando el porqué utilizó esta cantidad de herramientas, y la calidad de la discusión de los resultados obtenidos para inferir qué tipo  de relación evolutiva existe entre las proteínas seleccionadas
+
+Respuesta: Primer lugar al buscar los isoprenil en en las bases de datos no se logra buscar en google luego buscamos en bases datos tales pfam el cual nos dio como resultado polyprenyl synt, al momento de buscar una familia de proteinas entonces debo buscar pfma entonces para estar más seguro busco, entonces asimilamos que la palabra iso puede ser isoform, buscamos en scop nos dio isoprenyl diphosphate synthases, por lo cual trabajamos con poliprenil sintetasa, de ncbi obtenimos 5 articulos de proteinas los cuales luego buscamos en ncbi
+
+
+
 
 protein http://pfam.xfam.org/family/PF00348#tabview=tab5
 
