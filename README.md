@@ -23,37 +23,26 @@ Como ya se conoce los organismos que se encuentran en la muestra, se elegirá el
 
 Al momento de realizar la búsqueda “isoprenil synthetase” nos entregó 2 resultados, en el cual uno era polyprenyl synthetase y el otro isoprenyl diphosphate synthases, luego de una investigación más exhaustiva se comprendió que la isoprenyl diphosphate synthases era una subfamilia de la polyprenyl synthetase, por lo tanto la familia que buscamos es polyprenyl synthetase, por lo cual se utilizó este como  para el trabajo.
 Para mayor seguridad cruse la información con las bases de datos de Pfam ,scop,ncbi (articulos cientificos) y UniProt. 
-Seleccione 5 proteínas de interés para generar el árbol filogenético, para lo cual en la misma página Pfam seleccione el índice arbol (trees)(1), en el cual me di cuenta que existe una relación entre el valor y la similitud entre secuencias, siendo 1,000 (uno) secuencias totalmente distintas y valores más cercanos a cero secuencias muy similares. Por otro lado como ya conocemos el código uniprot proporcionado por la pag Pfam, se accedio a uniprot, permitiendo este  acceder a la información de las 5 proteínas, en cuanto al nombre de las proteínas, tipo de organismo, gen, secuencia,  función, código Uniprot, entre otros. A continuación al recopilar información se procedió acceder  a Aling (2) dentro de uniprot con la finalidad realizar un árbol filogenético, paralelamente se utilizo  clustaw2 Phylogeny (3) con el proposito de obtener una segunda opinión de la estructura del arbol o su robustez, en cuanto a los resultados obtenidos por las 2 paginas (clustaw2 y uniprot) generaron arboles diferentes, en el cual con el cladograma de uniprot (4) podemos distinguir que una familia de secuencias de proteinas (3 rojo) son convergentes, en tanto  a sus estructuras al momento de analizar sus secuencias de proteinas sufren unos pequeños cambios de aminoacidos (5), en el cual son muy similares, en tanto las 2 ultimas sec de proteinas divergen dado que sus estructuras son diferentes a las otras, por otro lado clustaw2 se observa distancias evolutivas distintas, en el cual B9TQA8 0.40375
-E6WQZ5 0.16908 sus relaciones filogeneticas son muy distantes en comparación al resto
+)Seleccione 5 proteínas de interés para generar el árbol filogenético, para lo cual en la misma página Pfam seleccione el índice arbol (trees)(1), en el cual me di cuenta que existe una relación entre el valor y la similitud entre secuencias, siendo 1,000 (uno) secuencias totalmente distintas y valores más cercanos a cero secuencias muy similares. Por otro lado como ya conocemos el código uniprot proporcionado por la pag Pfam, se accedio a uniprot, permitiendo este  acceder a la información de las 5 proteínas, en cuanto al nombre de las proteínas, tipo de organismo, gen, secuencia,  función, código Uniprot, entre otros. A continuación al recopilar información se procedió acceder  a Aling (2) dentro de uniprot con la finalidad realizar un árbol filogenético, paralelamente se utilizo  clustaw2 Phylogeny (3) con el proposito de obtener una segunda opinión de la estructura del arbol o su robustez, en cuanto a los resultados obtenidos por las 2 paginas (clustaw2 y uniprot) generaron arboles diferentes, en el cual con el cladograma de uniprot (4) podemos distinguir que una familia de secuencias de proteinas (G2MHH5,F7PNM1,D4GZT2) son cercanos evolutivamente y perteneciendo estos 3 a Archea, por otro lado B9TQA8 y E6WQZ5 correspondieron a distintos organismo (Eucarionte y Bacteria. En tanto  a sus estructuras al momento de analizar sus secuencias de proteinas(G2MHH5,F7PNM1,D4GZT2,B9TQA8, E6WQZ5) sufren unos pequeños cambios de aminoacidos (5), en donde las 2 últimas presentan más diferencia estructural en comparación a las primeras 3 sec de proteínas, por lo que se deduce que estos aminoácidos han sido cambiados por la naturaleza con el fin de modificar la estructura de la proteína, por otro lado clustaw2 (6) se  logra observar distancias evolutivas distintas, en el cual B9TQA8_RICCO  y E6WQZ5_PSEUU sus relaciones filogeneticas son muy distantes en comparación al resto (G2MHH5_9ARCH,F7PNM1_9EURY,D4GZT2_HALVD).
 
-En resumen las razones de los programas utilizados para la investigación son los siguientes; se utilizo Pfam ya que este al ser una base de datos de familias de proteinas lo utilizamos para obtener informacion de la familia que se nos otorgo en la pregunta y tambien obtener informacion relacionada con la formacion del arbol ¨obtencion de secuencias´´, analisis de relación de datos; también se utilice interprot ya que este unifica multiple bases de datos y sitios funcionales incluyendo Prosite,Pfam; otra herramienta utilizada fue Uniprot, en donde generalmente se utiliza para realizar un blast entre las secuencias para poder obtener una idea de un arbol filogenetico y asi mismo obtener información biologica de las 5 proteinas; finalmente la otra herramienta utilizada fue clustaw2 ya que esta es una herramienta bioinformatica con mayor precisión al momento de generar arboles filogeneticos
+En tanto al obtener el alineamiento por uniprot se obtuvo un porcentaje de identidad del 15.294% y al  hacer click en propiedades de los aminoácidos donde dice similarity se observa que las primeras 3 sec de proteínas (G2MHH5,F7PNM1,D4GZT2) son muy similares, finalmente al recopilar toda la información de prosite, pfam e interpro se obtuvo que todas poseen 1 dominio  característico que corresponde a poliprenil sintetasa, finalmente se llega a concluir que estas 5 proteínas poseen una relación divergente, ya que poseen una función similar entre ellas (Proceso biológico: proceso biosintético isoprenoide), pero algunas de ellas pudieron especializarse y obtener nuevas funciones como es el caso de F7PNM1 que adquirio 3 funciones moleculares, además con lo aprendido en clases se sabe que los organismo utilizan la energía con el fin de  conservar estructuras importantes entre estas  que les permitan ser de un aporte para la supervivencia. 
 
-
-
-S
+En resumen las razones de los programas utilizados para la investigación son los siguientes; se utilizo Pfam ya que este al ser una base de datos de familias de proteinas lo utilizamos para obtener informacion de la familia que se nos otorgo en la pregunta y tambien obtener informacion relacionada con la formacion del arbol ¨obtencion de secuencias´´, analisis de relación de datos; también se utilizo interprot ya que este unifica multiple bases de datos y sitios funcionales incluyendo Prosite, Pfam; otra herramienta utilizada fue Uniprot, en donde generalmente se utiliza para realizar un blast entre las secuencias para poder obtener una idea de un arbol filogenetico y asi mismo obtener información biologica de las 5 proteinas; finalmente la otra herramienta utilizada fue clustaw2, ya que esta es una herramienta bioinformatica con mayor precisión al momento de generar arboles filogeneticos.
 
 
 
-protein http://pfam.xfam.org/family/PF00348#tabview=tab5
+__Artículos NCBI arrojados al buscar proteínas de la familia isoprenyl synthetase__
 
-https://www.rcsb.org/pdb/explore/explore.do?structureId=4gp1
+1) https://www.ncbi.nlm.nih.gov/pubmed/1303794?dopt=Abstract
 
-http://www.uniprot.org/uniprot/H8GS93#family_and_domains
+2) https://www.ncbi.nlm.nih.gov/pubmed/1826006?dopt=Abstract
 
-http://pfam.xfam.org/protein/H8GS93_DEIGI
-
-http://www.rcsb.org/pdb/explore/explore.do?structureId=3n5j
-
-https://www.ncbi.nlm.nih.gov/pubmed/1303794?dopt=Abstract
-
-https://www.ncbi.nlm.nih.gov/pubmed/1826006?dopt=Abstract
-
-https://www.ncbi.nlm.nih.gov/pubmed/2089044?dopt=Abstract
-
-http://pfam.xfam.org/family/PF00348#tabview=tab5
+3) https://www.ncbi.nlm.nih.gov/pubmed/2089044?dopt=Abstract
 
 
-Links de imagenes
+
+__Links de imágenes__
+
 (1) https://www.dropbox.com/s/yf3ym10pwfiddxz/Captura%20de%20pantalla%202017-10-31%20a%20la%28s%29%2000.55.29.png?dl=0
 
 (2) https://www.dropbox.com/s/ncho02rmrl0jxqg/Captura%20de%20pantalla%202017-10-31%20a%20la%28s%29%2001.04.40.png?dl=0
@@ -65,3 +54,6 @@ Links de imagenes
 (5) https://www.dropbox.com/s/wdrqbvgdr72o1fz/Captura%20de%20pantalla%202017-10-31%20a%20la%28s%29%2001.13.18.png?dl=0
 
 (6) https://www.dropbox.com/s/0j5gbjwie4km5ux/Captura%20de%20pantalla%202017-10-31%20a%20la%28s%29%2001.15.39.png?dl=0
+
+__Tabla con información biológica de las 5 proteínas investigadas:__ https://www.dropbox.com/s/0eiabmhn3m6cxzx/Captura%20de%20pantalla%202017-10-31%20a%20la%28s%29%2002.30.57.png?dl=0
+
