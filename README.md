@@ -1,4 +1,4 @@
-# Bioinformatica-Solemne-2-(BIT120)
+# Bioinformática-Solemne-2-(BIT120)
 
 # Nombre: Byron Guzmán Marín
 
