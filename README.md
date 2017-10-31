@@ -3,7 +3,7 @@
 # Nombre: Byron Guzmán Marín
 
 
-# Parte 1: Metagenómica, Metranscriptómica y Microbioma humano
+# Parte I: Metagenómica, Metranscriptómica y Microbioma humano
 
 __1.Usted trabaja como asistente de investigación en el Centro de Bioinformática y Biología Integrativa de la Universidad Andrés Bello. Su jefe le asigna un proyecto de alta prioridad: se le indica que, en el refrigerador (a -20ªC), usted encontrará un tubo eppendorf que contiene ADN aislado desde una muestra fecal proveniente de un paciente, cuya identidad desconoce (no es importante). El paciente presenta claros síntomas de una infección bacteriana intestinal, pero no se ha podido identificar la identidad del patógeno responsable mediante el método tradicional de cultivo en placas de Petri. Disponiendo usted de una muestra de ADN total aislado de una muestra de heces del paciente, describa de forma breve y precisa su plan de trabajo, paso a paso, para responder a la siguiente pregunta: ¿Qué bacterias están presentes en la muestra?__
 
@@ -19,14 +19,19 @@ Como ya se conoce los organismos que se encuentran en la muestra, se elegirá el
 
 # Parte II. Proteínas y evolución
 
-1.__Según lo visto en el laboratorio, en este caso requerirá caracterizar evolutivamente proteínas de la familia de isoprenyl synthetase (debe elegir al menos 5 proteínas distintas) determinando si ¿existe una relación evolutiva convergente o divergente entre ellas? y ¿porque?, para lo cual deberá utilizar las distintas herramientas como las bases de datos Uniprot, Prosite,Pfam, entre otras. 
+1.__Según lo visto en el laboratorio, en este caso requerirá caracterizar evolutivamente proteínas de la familia de isoprenyl synthetase (debe elegir al menos 5 proteínas distintas) determinando si ¿existe una relación evolutiva convergente o divergente entre ellas? y ¿porque?, para lo cual deberá utilizar las distintas herramientas como las bases de datos Uniprot, Prosite,Pfam, entre otras.__ 
+
+Al momento de realizar la búsqueda “isoprenil synthetase” nos entregó 2 resultados, en el cual uno era polyprenyl synthetase y el otro isoprenyl diphosphate synthases, .
+luego de una investigación más exhaustiva se comprendió que la isoprenyl diphosphate synthases era una subfamilia de la polyprenyl synthetase, por lo tanto la familia que buscamos es polyprenyl synthetase y por lo cual se utilizó este como base de búsqueda/ la cual trabajaré.
+para mayor seguridad cruse la información con las bases de datos de PFAM ,SCOP,ncbi y UniProt. 
+Seleccionamos 5 proteínas de interés para generar el árbol filogenético, para lo cual en la misma página Pfam seleccionamos el índice arbol (trees), en el cual me di cuenta que existe una relación entre el valor y la similitud entre secuencias, siendo 1,000 (uno) secuencias totalmente distintas y valores más cercanos a cero secuencias muy similares. Por otro lado como ya conocemos el código uniprot proporcionado por la pag Pfam, permitiendo acceder a la información de las 5 proteínas,en cuanto a nombre de la proteína, tipo de organismo, gen,secuencia,  función, código uniproT, entre otros. A continuación al recopilar información  accedimos a Aling dentro de uniprot con la finalidad realizar un árbol filogenético, paralelamente utilizamos clustaw2 Phylogeny  con el proposito de obtener una segunda opinion de la estructura del arbol o su robustez, en cuanto a los resultados obtenidos por las 2 paginas (clustaw2 y uniprot) generaron arboles diferentes, en el cual con el cladograma de uniprot podemos distinguir que una familia de secuencias de proteinas (3 rojo) son convergentes, en tanto  a sus estructuras al momento de analizar sus secuencias de proteinas sufren unos pequeños cambios de aminoacidos, en el cual son muy similares, en tanto las 2 ultimas sec de proteinas divergen dado que sus estructuras son diferentes a las otras, por otro lado clustaw2 se observa distancias evolutivas distintas, en el cual B9TQA8 0.40375
+E6WQZ5 0.16908 sus relaciones filogeneticas son muy distantes en comparación al resto
+
+En resumen las razones de los programas utilizados para la investigación son los siguientes; se utilizo Pfam ya que este al ser una base de datos de familias de proteinas lo utilizamos para obtener informacion de la familia que se nos otorgo en la pregunta y tambien obtener informacion relacionada con la formacion del arbol ¨obtencion de secuencias´´, analisis de relación de datos; también se utilice interprot ya que este unifica multiple bases de datos y sitios funcionales incluyendo Prosite,Pfam; otra herramienta utilizada fue Uniprot, en donde generalmente se utiliza para realizar un blast entre las secuencias para poder obtener una idea de un arbol filogenetico y asi mismo obtener información biologica de las 5 proteinas; finalmente la otra herramienta utilizada fue clustaw2 ya que esta es una herramienta bioinformatica con mayor precisión al momento de generar arboles filogeneticos
 
 
 
-Según lo visto en el laboratorio, en este caso requerirá caracterizar evolutivamente proteinas de la familia de isoprenyl synthetase (5 proteínas) determinando si ¿existe una relación convergente o divergente entre ellas? ¿porque?, para lo cual deberá utilizar las distintas herramientas como las bases de datos uniprot, prosite, pfam, entre otras.La evaluación de esta pregunta se asignará según la cantidad de herramientas utilizadas, determinando el porqué utilizó esta cantidad de herramientas, y la calidad de la discusión de los resultados obtenidos para inferir qué tipo  de relación evolutiva existe entre las proteínas seleccionadas
-
-Respuesta: Primer lugar al buscar los isoprenil en en las bases de datos no se logra buscar en google luego buscamos en bases datos tales pfam el cual nos dio como resultado polyprenyl synt, al momento de buscar una familia de proteinas entonces debo buscar pfma entonces para estar más seguro busco, entonces asimilamos que la palabra iso puede ser isoform, buscamos en scop nos dio isoprenyl diphosphate synthases, por lo cual trabajamos con poliprenil sintetasa, de ncbi obtenimos 5 articulos de proteinas los cuales luego buscamos en ncbi
-
+S
 
 
 
